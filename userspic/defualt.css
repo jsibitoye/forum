@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:80%;
+	left:20%;
+	padding:20px;
+	margin:auto;
+	background:url(img01.jpg) repeat-x;
+}
+#allfile{
+	height:870px;
+	width:800px;
+	left:10%;
+	border:1px solid #FFF;
+	padding:20px 0 0;
+	margin:auto;
+	}
+#sitename{
+	text-decoration: blink;
+	color: #06C;
+	font:bold "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	height: 30px;
+	font-size:25px;
+	padding:0 0 0 3px;
+	width:200px;
+	width: 200px;
+	float:left;
+}
+#search{
+	float:right;
+	width:220px;
+	height:30px;
+	position:relative;
+	padding:0 3px 0 0;
+	}
+#buton{
+	background:url(img03.jpg);
+	color:#FFF;
+	border-radius:8px 0;
+	font:"Courier New", Courier, monospace;
+	}
+#sech{
+	border:1px solid #FFF;
+	border-radius:10px 10px;
+	
+	}
+#try{
+	animation: cubic-bezier(x1,y1,x2,y2);
+	}
+#bar{
+	z-index:1;
+	margin:0 0 0 5px;
+	width: 790px;
+	height:25px;
+	position:relative;
+	top:-22px;
+	color: #006;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-style:  oblique;
+	float:right;
+}
+#sid1 ul{
+	list-style-type:none;
+	}
+#sid1 li a{
+	color: #006;
+	list-style-type:none;
+	}
+#sid1 li a:hover{
+	color:#FFF;
+	background:url(img03.jpg);
+	display:block;
+	opacity:0.4;
+	}
+#sid{
+	height: 490px;
+	width: 200px;
+	position:relative;
+	overflow:hiden;	
+	}
+#sid1{
+	
+	height: 250px;
+	padding:5px;
+	width: 190px;
+	float:left;
+	font:large "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+#sid2{
+	height: 230px;
+	width:200px;
+	position:relative;
+	float:left;
+	}
+#learn{
+	height:60px;
+	width:580px;
+	float:center;
+	font-variant:small-caps;
+	text-align:right;
+	}
+#learn:hover{
+	font-size: 20px;
+	text-decoration:blink;
+	}
+#allfile #bannar{
+	z-index: -1;
+	width: 800px;
+	height: 61px;
+	float:right;
+	background: url(img01.gif) repeat-x;
+}
+#ojoro{
+	z-index:0;
+	height: 61px;
+	width:3px;
+	background:url(img01.jpg) repeat-x;
+	}
+.tbar{
+	border-left:1px solid #CCC;
+}
+#content{
+	width:600px;
+	height:490px;
+	position:relative;
+	top:2px;
+	border-top:1px solid blue;
+	float:right;
+	}
+#content1{
+	height: 450px;
+	width: 265px;
+	position:relative;
+	padding:10px;
+	border:1px dotted green;
+	border-radius:20px 20px;
+	float:left;
+	font: italic large Verdana, Geneva, sans-serif;
+	color:#09C;
+	line-height:27px;
+	overflow:auto;
+}
+#content1:hover{
+	color:#06F;
+	border:1px dotted blue;
+	}
+#content2{
+	overflow:auto;
+	height:450px;
+	border:1px dotted green;
+	border-radius:20px 20px;
+	width:265px;
+	padding:10px;
+	position:relative;
+	float:right;
+	color:#066;
+	line-height:29px;
+	}
+#maqu{
+	border-bottom:1px solid blue;
+	width: 580px;
+	height:105px;
+	font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#990;
+	font-size:large;
+	margin:30px 10px 0 0;
+	float:right;
+}
+#fotban{
+	height: 90px;
+	width: 300px;
+	position:relative;
+	background:url(img01.jpg);
+	float:right;
+}
+#footer{
+	width: 800px;
+	height:100px;
+	position:relative;
+	background:url(til_ab.gif) repeat-x;
+	opacity:0.5;
+	float:bottom;
+	}
+#down{
+	height:35px;
+	position:relative;
+	width:500px;
+	left:5px;
+	overflow:inherit;
+	top:-15px;
+	}
+#infoot1{
+	height: 30px;
+	width: 800px;
+	background:url(content-tail.gif);
+	border:1px solid white;
+	border-radius:40px 0px;
+	position:relative;
+	color:#99C;
+	font:italic;
+	text-align:right;
+	padding:0 3px 0 0;
+}
+#infoot2{
+	height:100px;
+	width:50px;
+	position:absolute;
+	}
+a{
+	text-decoration:none;
+	}
+#bar a{
+	color: #006;
+	}
+#bar a:hover{
+	display:block;
+	text-shadow:1px 2px 2px red;
+			   /*x	 y	blure corlor*/
+	}

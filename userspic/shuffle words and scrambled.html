@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="shuffle scc.css" />
+<script type="text/javascript" src="waka.js">
+</script>
+</head>
+
+<body>
+
+<div id="all">
+<h1 id="ln">Learn-E-How</h1>
+  <div id="bar">
+    <div id="bar2">
+    <ul>
+    <li><a href="../../home service/index.html">Home</a></li>
+    <li><a href="#">Online Tests</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Games</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Forum</a></li>
+    </ul>
+    </div>
+  </div>
+  <br />
+  
+ <div id="st">STAGE :
+ <select class="stg" id="stage" onchange="unlk()">
+ <option id="stg1">1</option>
+ <option id="stg2" disabled="true">2</option>
+ <option id="stg3" disabled="true">3</option>
+ <option id="stg4" disabled="true">4</option>
+ </select>
+ 
+  <!-- <input type="text" class="stg" value="1" disabled="true"/>-->
+ </div>
+<div id="me">
+   SCORE:<input type="text" class="stg" disabled="true" id="sco"/>
+ <br />
+   TIMER&nbsp;:<input type="text" style="color:" placeholder="00:00" id="tim" class="stg" disabled="true"/>
+   </div>
+ <br />
+ <div id="score"><div id="sc">YOUR TOTAL SCORE IS
+ <br />
+<input type="text" disabled="true" id="scoo" value="70"/>
+ </div></div>
+ <div id="lif">
+ <h1>Question<input type="text" class="stg" id="qst"/></h1>
+ <form name="f1">
+ <table width="100%" height="80%">
+ <tr>
+ <td align="center" colspan="2"><input type="text" disabled="true" id="soq"/></td>
+ </tr>
+ <tr>
+ <td align="center" height="60px">A<input type="radio" id="a" name="cl" onclick="gon('a')" /><input type="text" disabled="true" id="a1" class="tx" /></td>
+ <td align="center" height="60px">B<input type="radio" id="b" name="cl" onclick="gon('b')"/><input type="text" class="tx" disabled="true" id="b1" /></td>
+ </tr>
+ <tr>
+ <td align="center" height="60px">C<input type="radio" id="c" name="cl" onclick="gon('c')"/><input type="text" class="tx" disabled="true" id="c1" /></td>
+ <td align="center" height="60px">D<input type="radio" id="d" name="cl" onclick="gon('d')"/><input type="text" class="tx" disabled="true" id="d1" /></td>
+ </tr>
+ <tr>
+ <td align="center" height="40px" colspan="2"> <input type="button" value="SUBMIT ALL" onclick="submi()" />
+ <input type="button" value="NEXT" onclick="next()" /></td>
+ </tr>
+ </table>
+ </form> 
+ </div>
+ <div id="gam">
+ <div id="tab">
+<table height="100%" width="100%">
+<tr>
+<td class="lt"><h1>LETTERS</h1></td>
+<td><input type="text" id="lt" class="box" disabled="true" placeholder="click star" /></td>
+</tr>
+<tr>
+<td class="lt"> <h1>ARRANGE</h1></td>
+<td><input type="text" id="ar" class="box" placeholder="TYPE HERE!!!"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="button" value="SUBMIT ALL" id="sub" onclick="submi()" class="but" />
+ &nbsp;
+<input type="button" value="START" onclick="shuf()" id="stat" class="but"/>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+</body>
+</html>

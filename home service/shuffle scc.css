@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:auto;
+	background:#8F7E88;
+	}
+#all{
+	height:900px;
+	margin:auto;
+	position:relative;
+	width:900px;
+	background:#9E7D78;
+	}
+#ln{
+	padding:0 0 0 5px;
+	border-left:8px solid #FFF;
+	color:#000;
+	text-shadow:1px 2px 8px #CCCCCC;
+	border-radius:6px 0;
+	}
+#bar{
+	width:900px;
+	height:70px;
+	background:#8F7E88;
+	border:1px solid white;
+	border-radius:5px 5px;
+	box-shadow:2px 5px 8px #000000;
+	position:relative;
+	}
+li{
+	list-style-type:none;
+	}
+#bar2{
+	position:relative;
+	}
+#bar2 li{
+	float:left;
+	padding:30px;
+	font:20px Georgia, "Times New Roman", Times, serif;
+	}
+a{
+	text-decoration:none;
+}
+#bar2 a{
+	color:#FFF;
+	}
+#bar2 a:hover{
+	color:#F2DBE8;
+	text-shadow:3px 1px 5px #000;
+	text-decoration:underline;
+	}
+.stg{
+	height:30px;
+	width:70px;
+	background:none;
+	border:none;
+	font:30px bold;
+	color:#FFF;
+	text-align:center;
+	}
+#scoo{
+	height:40px;
+	width:100px;
+	background:none;
+	border:none;
+	font:50px bold;
+	color:#009;
+	text-align:center;
+	}
+#tim{
+	color:#009;
+	}
+#me{
+	position:relative;
+	float:right;
+	right:30px;
+	top:30px;
+	position:relative;
+	width:190px;
+	height:100px;
+	color:#F9EFEC;
+	font:30px bold;
+	}
+#st{
+	position:relative;
+	top:50px;
+	left:30px;
+	width:190px;
+	height:35px;
+	color:#F9EFEC;
+	font:30px bold;
+	border:1px dashed #F2DBE8;
+	border-radius:7px 2px;
+	}
+#tab{
+	border:1px dotted #996148;
+	border-radius:4px 9px;
+	height:250px;
+	width:600px;
+	}
+#soq{
+	height:140px;
+	width:700px;
+	font:30px bold;
+	text-align:center;
+	background:#F8F1F8;
+	border-radius:3px 6px;
+	}
+#lif{
+	height:450px;
+	width:750px;
+	border-radius:4px 9px;
+	position:relative;
+	top:170px;
+	border:1px solid red;
+	left:70px;
+	display:none;
+	}
+#gam{
+	
+	height:250px;
+	width:600px;
+	position:relative;
+	top:150px;
+	left:100px;
+	display:inline;
+	}
+#score{
+	height:250px;
+	width:600px;
+	border-radius:4px 9px;
+	position:relative;
+	top:150px;
+	left:100px;
+	display:none;
+	border:1px solid #C0C0C0;
+	}
+#sc{
+	font:20px;
+	height:200px;
+	width:500px;
+	position:relative;
+	top:50px;
+	text-align:center;
+	left:50px;
+	font:50px Georgia, "Times New Roman", Times, serif bold;
+	color:#CCC;}
+.box{
+	height:30px;
+	width:270px;
+	font:25px small;
+	text-align:center;
+	background:none;
+	color:#FFF;
+	border:none;
+	text-transform:uppercase;
+	box-shadow:0 4px 5px #999999;
+	}
+.but{
+	height:40px;
+	width:120px;
+	}
+#ar{
+	display:none;
+	}
+#sub{
+	display:none;
+	}
+.cl{
+	display:inline-block;
+	}
+.tx{
+	height:50px;
+	width:250px;
+	background:none;
+	border:none;
+	color:#FFF;
+	font:25px bold;
+	}
+#stat{
+	display:inline;
+	}
